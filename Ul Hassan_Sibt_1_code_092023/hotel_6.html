@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/hotel_1.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img class="logo" src="images/logo/Booki.png" alt="booki"
+      /></a>
+    </header>
+    <main>
+      <div class="hotel-details">
+        <h1>Hotel chez Amina</h1>
+        <img
+          src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+          alt="Auberge la Cannebière"
+        />
+
+        <div class="details">
+          <p>
+            Hotel chez Amina is a charming hotel located in Marseille. Our
+            comfortable rooms and excellent services make it an ideal choice for
+            your stay in the city.
+          </p>
+
+          <p>
+            Night starting at
+            <b
+              ><span class="mobile_E">€</span>25<span class="desktop_E"
+                >€</span
+              ></b
+            >
+          </p>
+
+          <div class="ratings">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star unchecked"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="room-types">
+        <h2>Room Types</h2>
+        <ul>
+          <li>Single Room - €25/night</li>
+          <li>Double Room - €40/night</li>
+        </ul>
+      </div>
+      <div class="dates">
+        <label for="arrivalDate">Arrival Date:</label>
+        <input type="date" id="arrivalDate" data-input />
+
+        <label for="departureDate">Departure Date:</label>
+        <input type="date" id="departureDate" data-input />
+      </div>
+
+      <!-- Add a button to simulate a booking action -->
+      <div id="booking-info">
+        <button id="bookButton" onclick="bookRoom()">Book Now</button>
+      </div>
+    </main>
+
+    <!-- footer below -->
+    <footer>
+      <div class="about">
+        <h3 class="h3_about">About</h3>
+        <a href="#"><p class="paragraph-footer">Site Map</p></a>
+        <a href="#"
+          ><p class="paragraph-footer">General Terms and Conditions</p></a
+        >
+        <a href="#"><p class="paragraph-footer">Data and Privacy</p></a>
+      </div>
+      <div class="about">
+        <h3 class="h3_about">Our Accommodations</h3>
+        <a href="#"><p class="paragraph-footer">Quality Assessment</p></a>
+        <a href="#"><p class="paragraph-footer">You have a hotel?</p></a>
+        <p></p>
+      </div>
+      <div class="about">
+        <h3 class="h3_about">Assistance</h3>
+        <a href="#"><p class="paragraph-footer">Help Desk</p></a>
+        <a href="#"><p class="paragraph-footer">Contact Us</p></a>
+        <p></p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/hotel_1.js"></script>
+  </body>
+</html>
